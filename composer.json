@@ -1,5 +1,5 @@
 {
-    "name": "stephenhill/randombase58generator",
+    "name": "stephenhill/randombase58idgenerator",
     "description": "An ID Generator for Doctrine 2 that generates a Random Base58 encoded string.",
     "type": "library",
     "require": {
@@ -16,5 +16,10 @@
             "email": "stephen@gatekiller.co.uk"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "StephenHill\\ORM\\": "src/"
+        }
+    }
 }
