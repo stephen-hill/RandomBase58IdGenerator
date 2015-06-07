@@ -2,6 +2,7 @@
 
 namespace StephenHill\ORM;
 
+use StephenHill\Base58;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Id\AbstractIdGenerator;
 use Exception;
